@@ -63,7 +63,7 @@ const Odeme = () => {
                                         <span style={{ fontSize: '11px', marginTop: '3px', float: 'left', marginLeft: '5px', color: '#007bff', cursor: 'pointer' }}>Kullanım koşullarını okudum ve kabul ediyorum.</span>
                                     </div>
                                     <div className="cart-info" style={{ display: 'block', height: '0' }} >
-                                        <h5 style={{ float: 'left' }}>Toplam Ödenecek Tutar : <span> {formData.totalAmount} <span style={{ color: '#aaa' }}>EUR</span></span></h5>
+                                        <h5 style={{ float: 'left' }}>Toplam Ödenecek Tutar : <span> {formData?.totalAmount} <span style={{ color: '#aaa' }}>EUR</span></span></h5>
 
                                     </div>
                                     <div className="flight-price">

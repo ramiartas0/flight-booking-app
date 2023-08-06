@@ -1,0 +1,1518 @@
+{
+    "departureLegs": [
+        {
+            "legId": 1185660,
+            "flightNo": "XQ 185",
+            "airlineCode": "XQ",
+            "airline": "data:image/png;base64,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",
+            "depTime": "07:40:00",
+            "arrTime": "12:20:00",
+            "flightId": "11603841",
+            "depPort": "DUS",
+            "arrPort": "AYT",
+            "flightDate": "2023-07-24",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 3613.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 3613.00,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 3613.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3613.00,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 3613.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3613.00,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1185658,
+            "flightNo": "XQ 181",
+            "airlineCode": "XQ",
+            "airline": "data:image/png;base64,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",
+            "depTime": "08:05:00",
+            "arrTime": "12:45:00",
+            "flightId": "11603827",
+            "depPort": "DUS",
+            "arrPort": "AYT",
+            "flightDate": "2023-07-24",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 3613.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 3613.00,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 3613.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3613.00,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 3613.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3613.00,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1185707,
+            "flightNo": "XQ 283",
+            "airlineCode": "XQ",
+            "airline": "data:image/png;base64,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",
+            "depTime": "09:30:00",
+            "arrTime": "14:10:00",
+            "flightId": "12010221",
+            "depPort": "DUS",
+            "arrPort": "AYT",
+            "flightDate": "2023-07-24",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 3573.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 3573.00,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 3573.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3573.00,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 3573.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3573.00,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1185586,
+            "flightNo": "PC 5002",
+            "airlineCode": "PC",
+            "airline": "https://ttyd.org.tr/wp-content/uploads/2022/01/pegasus-airlines-eps-vector-logo.png",
+            "depTime": "09:50:00",
+            "arrTime": "14:25:00",
+            "flightId": "10968585",
+            "depPort": "DUS",
+            "arrPort": "AYT",
+            "flightDate": "2023-07-24",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 3558.50,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 3558.50,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 3558.50,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3558.50,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 3558.50,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3558.50,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1185633,
+            "flightNo": "FH 1194",
+            "airlineCode": "FH",
+            "airline": "https://scontent-ist1-1.xx.fbcdn.net/v/t39.30808-6/299134301_595946692232473_1897555730709962080_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=MXVhW6hf-WkAX8TfmwZ&_nc_ht=scontent-ist1-1.xx&oh=00_AfAWz88zO_7BMrubWWq1VoTsAMB0DOhA7JOQJhthbLl1IA&oe=64D0DC87",
+            "depTime": "11:50:00",
+            "arrTime": "16:20:00",
+            "flightId": "11379106",
+            "depPort": "DUS",
+            "arrPort": "AYT",
+            "flightDate": "2023-07-24",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 3533.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 12.73,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 3545.73,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 3533.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 12.73,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3545.73,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 3533.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 12.73,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3545.73,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1453617,
+            "flightNo": "2S 3002",
+            "airlineCode": "2S",
+            "airline": "data:image/png;base64,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",
+            "depTime": "12:30:00",
+            "arrTime": "17:10:00",
+            "flightId": "13358874",
+            "depPort": "DUS",
+            "arrPort": "AYT",
+            "flightDate": "2023-07-24",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 3530.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 12.73,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 3542.73,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 3530.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 12.73,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3542.73,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 3530.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 12.73,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3542.73,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1185662,
+            "flightNo": "XQ 189",
+            "airlineCode": "XQ",
+            "airline": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABDlBMVEX///8aQoruXyoALYEANYQAOIaEk7gQPYgAMYMXQIkAN4UAL4IAK4H19/oANIQAMoPu8fYAJ39VbaILO4dKZZ6Snb3k6fGqtM2UocHf5O4AQI2vt85leqnFzN2hq8a/x9rtVxrIWEkrT5LT2ebuWiD2XyBzha/tUgj97+o6WJaHlrrV2+ftUABqWYIiSI5DX5pdc6UAIH362M70n4dwgasAGnv84tvzlXr3va7xflrvZTL5yr3xhmb1rZowU5TvbD3yj3P3uKf+9PHwdEr73dXsQgD1qJHZa1DIYlS8WVO6YVyzZGWoZW2VW26ATW57WXqHUGrbYUKcVWVVS4BJUoigVWBzWX1zTHNASYYABXc6n3RtAAAPoElEQVR4nO1daXvauBaOYxtb3o0Jy2UdyHUKSYHsW7N0uWk7vV1mpjN35v//kaujBQRhh9ROH70fWkxsodc6m2XpnK0tCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQmJFMJl/+cDd+Z5zxOFfjcKy/Tjoa8rccL92TjcMEJIz5DPGV1BKMwn3KNNI9CQogwZKopaSrhHG0E1s88/zmBYqtQT6NsmUG6qmsEPZjDsWqZefI6mJxNiTlqRHU1nWPPxkZlNpI/rYUfDPUd2QI+mMnQtfKBEJwn1ci14pOsVejCVYQwHyAkS6uRKcFlvyyZQDFvkYBrDUggncWHOPwt1rOuHbHjaBu680SOfpzHMwjmoSy9oHVrVH97fpYENjJGjH1sOjI9JApkpDOs2nGIzd9E2UJhJoM9Loe8LPa5E0H8LPk5hiBAMM7sjRKzNfgK9XgY9UeryKhDQOlvTGBbB3ioOiwsMQjftfoNKJrccHeIx1PwUhoEJnPRYOPkZRHMnIJnIZ/Y0AgpRfwpDcq7iUwOatwnd1OvhVuAgwQ1Sj+FUJzLcJ+Pt1eipfZFuqsF0i7pB5jHaW+4jhnmms016YpXQ9QsJ9XopdNHQDXKPUZjAsGyz8SW4havQbUJ9Xg7Ux1E3yD2GkdfHGJolRTSdBV+km0ZkOkMFItKn6PQgTwYxirtjDBGlHlLT6RJ9jYa+MDip/LjOL4Id1dIGKrSvEkffoUfUCSBFGWWokNtgMdNJSduDmY2io5upsqpE2/w2sy7seYH11yWOXHnEkCCiI18auSdb9S5orZOiR3+XuD3FcPqMlC/KHPUYExmabNxzxKpG9GC/Z9N74qXHc+yfsmGK7B3yRc0bMZPGFIbcU4i2yY0ddjo63X/8U0mh2vRZr7SIyFZTtP3UY0xgqLJbQP1LGz7WVPZH5DXTZVgLJu+Z3cO3vq6KQkjN5iOGPPCpUU+Btbja9Zg06GYtISZT4WZCJl2GEwf0yVbRqSYFzkSGDtXawCdx3slWKeswfkYYp3Fao5RVhwNQ8gRKdFZqnKFGdZZZ3qiUGSignUuRBo6grjAhQ147h4Rhoo9+owwRon/aJzM1qNflYq6hFLkJQD8WjHrRZyqHKFUelFGPMcLQZmFdjo4cd5qRWRw253b6yXuMmq3rglEITrg6UtjMIJJnDJEhNZ3cU3AYYUVQwDKy/M5W0oCb73UFwz5w2HRo+DQaGFeNMuyAjvKpCySebA7CIrikDVMAWtKDWCfih9S+8LIM3/pht302wBXTtxHtf+lW9W3mKejTJOVnReVhI0GFGh4v6SfGis5dREa42Tt2NOi4R8XOzZSH8ufW2auYYDjehioKZFFlLUS5H0FjBvYVjfXRMoS7na+og1Bt1tteHguMSQENvYlhVVrTr/5BKPLxQr6oRVWiRYBwunNrhVyWxRCtlFMHcW5x6rU/EMEJd9WGKlrCQmRRMd2ZemmGRQKRYI3dWJ3YXKJotbk6RaZAxyVRiqFM72begBNCUYVrFvf8I4Y1cZSRxg0iEgxivq9azVnmPlAsNSvMAVebHpNbTWwnFeg4XB1Hosr6yew1F/kTIUTL93noHYWdpP3gY2AHNngyOFlFf9wOD4eQkxoFHEXrlptP3VveBuI4gdvk2zQp4CjKiPs3r7vcA0Jr4FwilHQUIyIYg5uPeYyC7Ozib5GGDkdBlf18aQxPyGAOOofOGGzhwWLUC8xCUQjyFMO0x3CY3Bq4tvBcMAnqdF8vohDObodPySUAfWbHcCy2mC5W7dnNIO+JeUwFn2CaPoYLSum8O5XYapvSoT4TWnvBhnKWMROHidmaYmY2Fp0xa2VnI/mZDAkJCQmJ1fFwd/1kbb85O7q4OT4+v391//DmyX5lHvZ293aPzzbd6puj18eXd3sHe41GYxewd7npn1gYV9vb242D7ZuNkcTk7neB2u62iMam2l8a9wcN0oGDq4ejtRs7uzi/29sb48awgb6u2qubuwPSp8Ze4/7ixarNvDm6edU4mEwOYzc5KQW8uLjfxnd+d3u3sXd1f7G0wJ5dH08dOi6kx0/R8WV7ednA6rPbwP9ePlwvOJh46C4xucYMcpThxdN2f1G8uL65v8NmYu/g4KDx9vj10Uye7y7Or+YM3QB7GzfXi+PV1auH65Hff3F0fXP86u7gP4Cry/Obi+t3Zy8Yzs7evQM3d/92UXKUYVL0MC53sfbt7W2/eri4Phv1yy/O3l1fX9zcPByfnx8/3NzcvMYHx+dvdxvjvmAeEjU0r5kO4W5joldvL++Pb15fX18fnZ2RIcNjdnR98frh/NXl3TZx4Etxo2i8TpDh2cHY7d6FIdobAY1MVmDGcZCgGtKo5smRJMGth7mmfiGQ8HP33+MgY797nijDcTFdjhWhsb199fb9h4+/fvrv529fvnz9+pLgr69fvnz7/dPH91cH6weEa+FuaV6E1t1v7z98+v3z15d/fL9V/jUJiP2v/50swa2LxcSUENu+unv/8dPnLy+/K5wVQmjOmwEr8bUKMxhyObz67ZePf37+64/vXc5rzhy3CDvxffsPewNXIJoLPF6/fcAD9r+X3/81HK8lmDFEKdiU8PHDLwwfPvz66c/fv337+vLvv5uD8VqBloAwBa+DC85jK6GsyWuAdOxG7G6IzSQ4KRhCvmr9SRClZMts1pjf19XgJG5IKUrz3pSuihkr4n4wiv6TEEzw/f0j9J5ETp0U7UkI5qw1WAlm4vGaiPrmVTFKhSscorNpVTRSpIQU2XlLRpYDSj7ifoR2NL/fi0NNRTAzCre7OYOKwnTtPWRwmxujmKYtwCLc5mYEFakpJYgp9rT5/V+AYCpFlKFizmcwB1E33flbinPWis6F30vfIv1RVLV1lBGFz2CVXpBdPUjVozSr4BAFb7VhRE4l7RLKwXdHLge/+zwGkKLVVpe0OJaWuhQDc1C/VRcfR6TpKdznNBfVXKgvMpDIMNGzzF+KUcogM5pD0vDsfmqDtEVQjU3bmiKuyND9MFdI5za1ZdAqZg3V0yNjkDdBQZicZ/u9TP2ZSudjlOrFk3bkmWRPk+lrzX6n3Ppp2AkI8oCfMiO7hISEhISEhISEhISExLOH6/7MD6xuuR+FjuO0M8tMR7tjqRVSPNVb0D2WelM3l8j845oj6TH8FCzznYJYXAZkdBe+zh2dI41SlXpcRI2sGzU039MMyBu/8IWUIeLQ0vpKkKaltLOFer3Wd/QlXpwQhqjJ0U2rHtZg1YHPEt8FmdPFl/AQhmYKl/yMoW+MLCSvLu4zngtDUq5hmUW6g1uwLMPZ9278r0GpJH7lBsGqLz6A4bh56ezs7LAXfZ04jiF5YLVYqxVLW/sVZCg5KtMTGBbxhTtMH8vwGZ9ZqOEr3SDuGijHXFELGoOU7pVcG37GLfZws73hu7d83HVs1Wxm2IqUQs9yHLMbr/T2GFKVIW/0/pxi93ZIv+pZUQSVNnccywpb5RCzQoZTmcKwDimlDslX+dDSrVPcw55vWU7B1+FC85a0WghxY3W3bUfGIT6smmDFETbnrLECeyOJdGIW8l2TJApH0UqlvmJYbmA0RxZBQspYlngL0nBDIacdHTyezzygWp7MkKyTprW5ILEuKdxBEnlHLJN3RJaTFrB10+o5UlAJ3xZYmxPBuznkkDErwxcoivA3Ju6Fi0iZHjjUVslESIv3IDUjDOMUhrifnkOye5Lk1pMYkvoIUA6iCl6WFO6gqco91CaJ+ojXBIYIEzQss03rXalxLWdhGlBmIYAFV3ozk8napDgmZGlGdiXTtzx7JTEltxICtmEW/2kMFb2MFYqUANrn/rCXI+gxYwVDB+UgoCYQrZlAGKr4Yx7SmSPTpQxxqGD2a+U6SWxuwuvhikELRUDVDFoK0u20abo4pBAZK6+W0S0weFCqco7TGNJaHVDUAsSFxTQ015rFjBUJIMwy1ARiuwygBRpHuDpzvZShQdbou/izQfbM7NvU5oHemGz9vgtaOowIV3z8CdpcvXSnNosh+52OTjdEjsSlA3NMcpN3QevY+l9owaTSVdTpPjwipYwE5EL3qHHG4ooUylAb5t6t+xvY+VWzeV5tNZ7BkP1s0aIelDI0IgJv4HCo2RvWHBUYtkw6ssCQDwvcL5M6BZDskH6jDNeFwdCuv63GLRosdbFaW46hkT2pEAyiUr4DzHQfMXRVWkiH2FKeph6sb+UEI27Sn6XVXNQs50hupNZcN6OyW9PpKnwoh7cEQ/+xdcuNJsoXGYKp0YIRhu2hICjsZ+l+AMPp0asK1Nqb3bWT1sZksSH88jIMHy+SoTtrkEiYMSQVFvxRhqQQm5AdEo+826ZrkFlkwR9gMcd1ty4QIwGWYD2GZSLwFtecBRga/QoHNSkZllPbovUECh6jHK1LEfwARCRrMQzYInBeVV2U0uixlEIUZD5aEF2KadEEttjd3dGJLVy7gkLF2ADDLFt1yi28wJDkeh2zNMQ3TNCw4AREYVgEmm4NdNZcHE7t2noMSbkVUmmHlZoVGFYFb8EZwmdj4tCA9xQqJbZIYe8Vwra+cFdATcCXw6226ffQ1WUYki/VFrSEjHGGMF4QGogM8+BczEmugIRrwsQY7NK1V9ir6Dsx50jqbMB+R3hmpD2I9XkMx24qXKDHtJIjLT0KDOkjdh5ibK88ypD8HfGQuoUD85hzt0mNzDqPJXqIdmVJ4Mg+cpqZWr2QIQ6JbAeE4q9Ir+Mom+yrmBnT+CHHPzhKg6qqCB4pSJQdcQaKnXG36MDa7hhDUt4DOZVqab/eP8Q6klO7hbzrlsityeBnKXsHP+67RdBLfWmCWyVQGxRpHt1dQOvfkrAE+T5+Qp0npQLgQQosI5nWIkWDiAjTkoC61SX55kkdoRGGWzGtzu6rtmeAeeoipKmGYcJ1YQn/HH4mMJqatWLwVj0VVoUiHVGJbbMv9Ww8Ly4dYQgVrQxqHGCGi2gRkUKDZcsQnoCHk49Zc9AQTEifDpt1ikxRaPYGfaUKrfWeqrE5Ak/ldbnyyMd9Msze1onjeadkFkPXQ8oQPkLBH1f1RnDYcm0f/qNNHMJXRcrQqxsamcVo01kM3IIjTK/u0C6gyDTwqJ/YXgS/HnmkqG5NM0GUkKE7q1b2KtX6TV032idiHaNarqv08A9Uy+VyATdch8kp2vcqTDHV4ZzCCGrBPj65zI1rHQ7K3N+4O83Q6/GZqA5uTDRRQTGr6FGblfkIynGu2e1VyoxQPc51jWauk6I93yMgDNO9i2tNSIbPH5Lh84dk+PzRDlX1n5+aYT7ZMkASEhISEhISEhISEhISEhISEhISEhISEhISEhLj+D8Q6W5frjB2LgAAAABJRU5ErkJggg==",
+            "depTime": "13:55:00",
+            "arrTime": "18:35:00",
+            "flightId": "11603855",
+            "depPort": "DUS",
+            "arrPort": "AYT",
+            "flightDate": "2023-07-24",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 3573.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 3573.00,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 3573.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3573.00,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 3573.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3573.00,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1286460,
+            "flightNo": "DE 202",
+            "airlineCode": "DE",
+            "airline": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDvPive6_hjvaCuo_6NDuWV0XoIGtRPd-Qg&usqp=CAU",
+            "depTime": "14:25:00",
+            "arrTime": "19:00:00",
+            "flightId": "12558907",
+            "depPort": "DUS",
+            "arrPort": "AYT",
+            "flightDate": "2023-07-24",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 3522.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 12.73,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 3534.73,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 3522.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 12.73,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3534.73,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 3522.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 12.73,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3534.73,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1185613,
+            "flightNo": "TI 332",
+            "airlineCode": "TI",
+            "airline": "https://logowik.com/content/uploads/images/tailwind-airlines5058.logowik.com.webp",
+            "depTime": "14:50:00",
+            "arrTime": "19:30:00",
+            "flightId": "11107186",
+            "depPort": "DUS",
+            "arrPort": "AYT",
+            "flightDate": "2023-07-24",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 3548.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 12.73,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 3560.73,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 3548.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 12.73,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3560.73,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 3548.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 12.73,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3560.73,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1185661,
+            "flightNo": "XQ 187",
+            "airlineCode": "XQ",
+            "airline": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABDlBMVEX///8aQoruXyoALYEANYQAOIaEk7gQPYgAMYMXQIkAN4UAL4IAK4H19/oANIQAMoPu8fYAJ39VbaILO4dKZZ6Snb3k6fGqtM2UocHf5O4AQI2vt85leqnFzN2hq8a/x9rtVxrIWEkrT5LT2ebuWiD2XyBzha/tUgj97+o6WJaHlrrV2+ftUABqWYIiSI5DX5pdc6UAIH362M70n4dwgasAGnv84tvzlXr3va7xflrvZTL5yr3xhmb1rZowU5TvbD3yj3P3uKf+9PHwdEr73dXsQgD1qJHZa1DIYlS8WVO6YVyzZGWoZW2VW26ATW57WXqHUGrbYUKcVWVVS4BJUoigVWBzWX1zTHNASYYABXc6n3RtAAAPoElEQVR4nO1daXvauBaOYxtb3o0Jy2UdyHUKSYHsW7N0uWk7vV1mpjN35v//kaujBQRhh9ROH70fWkxsodc6m2XpnK0tCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQmJFMJl/+cDd+Z5zxOFfjcKy/Tjoa8rccL92TjcMEJIz5DPGV1BKMwn3KNNI9CQogwZKopaSrhHG0E1s88/zmBYqtQT6NsmUG6qmsEPZjDsWqZefI6mJxNiTlqRHU1nWPPxkZlNpI/rYUfDPUd2QI+mMnQtfKBEJwn1ci14pOsVejCVYQwHyAkS6uRKcFlvyyZQDFvkYBrDUggncWHOPwt1rOuHbHjaBu680SOfpzHMwjmoSy9oHVrVH97fpYENjJGjH1sOjI9JApkpDOs2nGIzd9E2UJhJoM9Loe8LPa5E0H8LPk5hiBAMM7sjRKzNfgK9XgY9UeryKhDQOlvTGBbB3ioOiwsMQjftfoNKJrccHeIx1PwUhoEJnPRYOPkZRHMnIJnIZ/Y0AgpRfwpDcq7iUwOatwnd1OvhVuAgwQ1Sj+FUJzLcJ+Pt1eipfZFuqsF0i7pB5jHaW+4jhnmms016YpXQ9QsJ9XopdNHQDXKPUZjAsGyz8SW4havQbUJ9Xg7Ux1E3yD2GkdfHGJolRTSdBV+km0ZkOkMFItKn6PQgTwYxirtjDBGlHlLT6RJ9jYa+MDip/LjOL4Id1dIGKrSvEkffoUfUCSBFGWWokNtgMdNJSduDmY2io5upsqpE2/w2sy7seYH11yWOXHnEkCCiI18auSdb9S5orZOiR3+XuD3FcPqMlC/KHPUYExmabNxzxKpG9GC/Z9N74qXHc+yfsmGK7B3yRc0bMZPGFIbcU4i2yY0ddjo63X/8U0mh2vRZr7SIyFZTtP3UY0xgqLJbQP1LGz7WVPZH5DXTZVgLJu+Z3cO3vq6KQkjN5iOGPPCpUU+Btbja9Zg06GYtISZT4WZCJl2GEwf0yVbRqSYFzkSGDtXawCdx3slWKeswfkYYp3Fao5RVhwNQ8gRKdFZqnKFGdZZZ3qiUGSignUuRBo6grjAhQ147h4Rhoo9+owwRon/aJzM1qNflYq6hFLkJQD8WjHrRZyqHKFUelFGPMcLQZmFdjo4cd5qRWRw253b6yXuMmq3rglEITrg6UtjMIJJnDJEhNZ3cU3AYYUVQwDKy/M5W0oCb73UFwz5w2HRo+DQaGFeNMuyAjvKpCySebA7CIrikDVMAWtKDWCfih9S+8LIM3/pht302wBXTtxHtf+lW9W3mKejTJOVnReVhI0GFGh4v6SfGis5dREa42Tt2NOi4R8XOzZSH8ufW2auYYDjehioKZFFlLUS5H0FjBvYVjfXRMoS7na+og1Bt1tteHguMSQENvYlhVVrTr/5BKPLxQr6oRVWiRYBwunNrhVyWxRCtlFMHcW5x6rU/EMEJd9WGKlrCQmRRMd2ZemmGRQKRYI3dWJ3YXKJotbk6RaZAxyVRiqFM72begBNCUYVrFvf8I4Y1cZSRxg0iEgxivq9azVnmPlAsNSvMAVebHpNbTWwnFeg4XB1Hosr6yew1F/kTIUTL93noHYWdpP3gY2AHNngyOFlFf9wOD4eQkxoFHEXrlptP3VveBuI4gdvk2zQp4CjKiPs3r7vcA0Jr4FwilHQUIyIYg5uPeYyC7Ozib5GGDkdBlf18aQxPyGAOOofOGGzhwWLUC8xCUQjyFMO0x3CY3Bq4tvBcMAnqdF8vohDObodPySUAfWbHcCy2mC5W7dnNIO+JeUwFn2CaPoYLSum8O5XYapvSoT4TWnvBhnKWMROHidmaYmY2Fp0xa2VnI/mZDAkJCQmJ1fFwd/1kbb85O7q4OT4+v391//DmyX5lHvZ293aPzzbd6puj18eXd3sHe41GYxewd7npn1gYV9vb242D7ZuNkcTk7neB2u62iMam2l8a9wcN0oGDq4ejtRs7uzi/29sb48awgb6u2qubuwPSp8Ze4/7ixarNvDm6edU4mEwOYzc5KQW8uLjfxnd+d3u3sXd1f7G0wJ5dH08dOi6kx0/R8WV7ednA6rPbwP9ePlwvOJh46C4xucYMcpThxdN2f1G8uL65v8NmYu/g4KDx9vj10Uye7y7Or+YM3QB7GzfXi+PV1auH65Hff3F0fXP86u7gP4Cry/Obi+t3Zy8Yzs7evQM3d/92UXKUYVL0MC53sfbt7W2/eri4Phv1yy/O3l1fX9zcPByfnx8/3NzcvMYHx+dvdxvjvmAeEjU0r5kO4W5joldvL++Pb15fX18fnZ2RIcNjdnR98frh/NXl3TZx4Etxo2i8TpDh2cHY7d6FIdobAY1MVmDGcZCgGtKo5smRJMGth7mmfiGQ8HP33+MgY797nijDcTFdjhWhsb199fb9h4+/fvrv529fvnz9+pLgr69fvnz7/dPH91cH6weEa+FuaV6E1t1v7z98+v3z15d/fL9V/jUJiP2v/50swa2LxcSUENu+unv/8dPnLy+/K5wVQmjOmwEr8bUKMxhyObz67ZePf37+64/vXc5rzhy3CDvxffsPewNXIJoLPF6/fcAD9r+X3/81HK8lmDFEKdiU8PHDLwwfPvz66c/fv337+vLvv5uD8VqBloAwBa+DC85jK6GsyWuAdOxG7G6IzSQ4KRhCvmr9SRClZMts1pjf19XgJG5IKUrz3pSuihkr4n4wiv6TEEzw/f0j9J5ETp0U7UkI5qw1WAlm4vGaiPrmVTFKhSscorNpVTRSpIQU2XlLRpYDSj7ifoR2NL/fi0NNRTAzCre7OYOKwnTtPWRwmxujmKYtwCLc5mYEFakpJYgp9rT5/V+AYCpFlKFizmcwB1E33flbinPWis6F30vfIv1RVLV1lBGFz2CVXpBdPUjVozSr4BAFb7VhRE4l7RLKwXdHLge/+zwGkKLVVpe0OJaWuhQDc1C/VRcfR6TpKdznNBfVXKgvMpDIMNGzzF+KUcogM5pD0vDsfmqDtEVQjU3bmiKuyND9MFdI5za1ZdAqZg3V0yNjkDdBQZicZ/u9TP2ZSudjlOrFk3bkmWRPk+lrzX6n3Ppp2AkI8oCfMiO7hISEhISEhISEhISExLOH6/7MD6xuuR+FjuO0M8tMR7tjqRVSPNVb0D2WelM3l8j845oj6TH8FCzznYJYXAZkdBe+zh2dI41SlXpcRI2sGzU039MMyBu/8IWUIeLQ0vpKkKaltLOFer3Wd/QlXpwQhqjJ0U2rHtZg1YHPEt8FmdPFl/AQhmYKl/yMoW+MLCSvLu4zngtDUq5hmUW6g1uwLMPZ9278r0GpJH7lBsGqLz6A4bh56ezs7LAXfZ04jiF5YLVYqxVLW/sVZCg5KtMTGBbxhTtMH8vwGZ9ZqOEr3SDuGijHXFELGoOU7pVcG37GLfZws73hu7d83HVs1Wxm2IqUQs9yHLMbr/T2GFKVIW/0/pxi93ZIv+pZUQSVNnccywpb5RCzQoZTmcKwDimlDslX+dDSrVPcw55vWU7B1+FC85a0WghxY3W3bUfGIT6smmDFETbnrLECeyOJdGIW8l2TJApH0UqlvmJYbmA0RxZBQspYlngL0nBDIacdHTyezzygWp7MkKyTprW5ILEuKdxBEnlHLJN3RJaTFrB10+o5UlAJ3xZYmxPBuznkkDErwxcoivA3Ju6Fi0iZHjjUVslESIv3IDUjDOMUhrifnkOye5Lk1pMYkvoIUA6iCl6WFO6gqco91CaJ+ojXBIYIEzQss03rXalxLWdhGlBmIYAFV3ozk8napDgmZGlGdiXTtzx7JTEltxICtmEW/2kMFb2MFYqUANrn/rCXI+gxYwVDB+UgoCYQrZlAGKr4Yx7SmSPTpQxxqGD2a+U6SWxuwuvhikELRUDVDFoK0u20abo4pBAZK6+W0S0weFCqco7TGNJaHVDUAsSFxTQ015rFjBUJIMwy1ARiuwygBRpHuDpzvZShQdbou/izQfbM7NvU5oHemGz9vgtaOowIV3z8CdpcvXSnNosh+52OTjdEjsSlA3NMcpN3QevY+l9owaTSVdTpPjwipYwE5EL3qHHG4ooUylAb5t6t+xvY+VWzeV5tNZ7BkP1s0aIelDI0IgJv4HCo2RvWHBUYtkw6ssCQDwvcL5M6BZDskH6jDNeFwdCuv63GLRosdbFaW46hkT2pEAyiUr4DzHQfMXRVWkiH2FKeph6sb+UEI27Sn6XVXNQs50hupNZcN6OyW9PpKnwoh7cEQ/+xdcuNJsoXGYKp0YIRhu2hICjsZ+l+AMPp0asK1Nqb3bWT1sZksSH88jIMHy+SoTtrkEiYMSQVFvxRhqQQm5AdEo+826ZrkFlkwR9gMcd1ty4QIwGWYD2GZSLwFtecBRga/QoHNSkZllPbovUECh6jHK1LEfwARCRrMQzYInBeVV2U0uixlEIUZD5aEF2KadEEttjd3dGJLVy7gkLF2ADDLFt1yi28wJDkeh2zNMQ3TNCw4AREYVgEmm4NdNZcHE7t2noMSbkVUmmHlZoVGFYFb8EZwmdj4tCA9xQqJbZIYe8Vwra+cFdATcCXw6226ffQ1WUYki/VFrSEjHGGMF4QGogM8+BczEmugIRrwsQY7NK1V9ir6Dsx50jqbMB+R3hmpD2I9XkMx24qXKDHtJIjLT0KDOkjdh5ibK88ypD8HfGQuoUD85hzt0mNzDqPJXqIdmVJ4Mg+cpqZWr2QIQ6JbAeE4q9Ir+Mom+yrmBnT+CHHPzhKg6qqCB4pSJQdcQaKnXG36MDa7hhDUt4DOZVqab/eP8Q6klO7hbzrlsityeBnKXsHP+67RdBLfWmCWyVQGxRpHt1dQOvfkrAE+T5+Qp0npQLgQQosI5nWIkWDiAjTkoC61SX55kkdoRGGWzGtzu6rtmeAeeoipKmGYcJ1YQn/HH4mMJqatWLwVj0VVoUiHVGJbbMv9Ww8Ly4dYQgVrQxqHGCGi2gRkUKDZcsQnoCHk49Zc9AQTEifDpt1ikxRaPYGfaUKrfWeqrE5Ak/ldbnyyMd9Msze1onjeadkFkPXQ8oQPkLBH1f1RnDYcm0f/qNNHMJXRcrQqxsamcVo01kM3IIjTK/u0C6gyDTwqJ/YXgS/HnmkqG5NM0GUkKE7q1b2KtX6TV032idiHaNarqv08A9Uy+VyATdch8kp2vcqTDHV4ZzCCGrBPj65zI1rHQ7K3N+4O83Q6/GZqA5uTDRRQTGr6FGblfkIynGu2e1VyoxQPc51jWauk6I93yMgDNO9i2tNSIbPH5Lh84dk+PzRDlX1n5+aYT7ZMkASEhISEhISEhISEhISEhISEhISEhISEhISEhLj+D8Q6W5frjB2LgAAAABJRU5ErkJggg==",
+            "depTime": "15:10:00",
+            "arrTime": "19:50:00",
+            "flightId": "11603848",
+            "depPort": "DUS",
+            "arrPort": "AYT",
+            "flightDate": "2023-07-24",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 3573.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 3573.00,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 3573.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3573.00,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 3573.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3573.00,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1185659,
+            "flightNo": "XQ 183",
+            "airlineCode": "XQ",
+            "airline": "data:image/png;base64,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",
+            "depTime": "19:00:00",
+            "arrTime": "23:40:00",
+            "flightId": "11603834",
+            "depPort": "DUS",
+            "arrPort": "AYT",
+            "flightDate": "2023-07-24",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 3518.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 3518.00,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 3518.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3518.00,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 3518.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 3518.00,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "returnLegs": [
+        {
+            "legId": 1186667,
+            "flightNo": "PC 5001",
+            "airlineCode": "PC",
+            "airline": "https://ttyd.org.tr/wp-content/uploads/2022/01/pegasus-airlines-eps-vector-logo.png",
+            "depTime": "06:05:00",
+            "arrTime": "09:00:00",
+            "flightId": "10968963",
+            "depPort": "AYT",
+            "arrPort": "DUS",
+            "flightDate": "2023-07-26",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 180.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 180.00,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 180.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 180.00,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 180.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 180.00,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1453803,
+            "flightNo": "2S 3001",
+            "airlineCode": "2S",
+            "airline": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABUFBMVEX////vLiUAVab//v////z8//8AVqb8/v8AU6X///sATaP8//36/////vwASqMAVqQARKINXalag7sARJ4AUKQAPpzw9/u3yeC90OSHocqGocWbsM6CpMsAQp5qj8LD1eY+dbXuEwDa6fKqvdgAO5sdZaz4y8csbLDsMCUARpwAVa7m7/noAAAAO58AQ6P0LCUASZvyLCvyIBoAN5zl7u8AP5T88fL53976v7z/4+L1sqvsgn3zQjnxdWn3p6r3k4XoMRXufnPwnJH78e7vUkzyu7HteXXhKQD3JiLy49vrQjrnYFL47vzzko730sjuW1b5uLLvYWXypJT4AAD2eXTxu8D9ycb2hInvU1LxbGPuk4v3VVZaicRTiLVGd67S3+p6lMQAJ5OerdJvir8+brRcfL0AHpBtiL6nwdRynMmZrNMkaqXQ2/IAM4gAKY2vxOQA3ygkAAAY2ElEQVR4nO1d+3vTRroea3Qba0ayY/kSHCdx7ARbcezESQiFLGUJpUAXSgvllJ4Wwy7dQ2i3/P+/ne8bSZYUy2AcunH66IUHZF3G8+qb+a4jmZAMGTJkyJAhQ4YMGTJkyJAhQ4YMGTJkyJAhQ4YMGTJkyJAhQ4YMGTJcCFTV0qgQlBGNXnRf/hxQSixKVEYptS66L38OVMI1jRAB/6gX3Zc/Bdq1o63r169vHV0j2kX35TNCUItpRPvixs3jZq/po9fs/O3WEQGJUgumpbjoPp4P3DL40Ze3e83hYJAL0ckNh83h37dg4FpEu+QMCSU3es3BXi5GMJfb2xvs7d1vDu+caJxcbr3Kn3DK+Y295qDT6YT8gF1u0Ml19nLD3s2Ti+7ivIApRpj2pNf8u8YNjfxw3ETB5SYw7P3EOTEu4Ui1LMpP7gKt5k1NWBrXrg+ag1wnhePTvceX0gFQKf+qN8DJ9/QGp9TgGszHIczHM+gM9m6DGC+j+dDuNTsdmHCdvd4RB4sARuPkb80JhoM9mJ5P71676O5+GigxLOPuMByRg2Mu5DxjZGs47AwmR2pn+PUJUY2L7vcnQCPXjocRgeYtLv1QRjl99jTSqWM5dnL3mw/IJdI2nLLjwSAi0ulBOOFD4zeakzIEUzLoPbhEc1G1Hg7janNveIfLA5QywY/SKIJD0Lskc5FZluDfDM/0vwf2UfNlRPk/OsPJkZrr3P/aMC6FGIVBHp2VUqd3nQfxhEZhMj68nzJQc8Nv8eKFByX8cS93O2kVOtB5zadIgaKFozhlLjZ/4pfA9GtE9GDmJYQILmizAtzwuAH/Weq1FOcGPJ7e0UV3fxZoNyflAwZji4txXG8Y/EEvtzcxF/eGDzk1Ft0u0geTfgtg+EjTxgwZxBtPeoNJbbPXvAFGc8FHqvZjCj8YgndjcSClmqF9N5y8E2AyhGYteJZqq5cmQhimEGGE54BHYIiT3uRJnb3mHa4usMkQjJJvwdanMeydaImeo01JPY+wBZ6HIKQHzVxKCIg9P0om2CySJkSQ9ZNFTsRRzr9Mccn8nm8lz7UIf5GmdHMPOb+Y3s8CiHNhjA5TRykwTGSBQdt8lSZEiCYXWoZbzXQJAsPnZxnyf/RSEjed4feLzFB7lDrwAhkm4j/wxEmKvQCDcfeiuj8DDHI8jWCueXQmL0qJdncwqZY6nR6b0vwCgIqpgzTX+yKZUKPw58Vg0j0d7J3VSQuFrWmaFGRoJStqmsa0b2+n+abDWxfV/RlwY7oMc2cCIwY24TjF+84NhvcuqPez4O/plgIwfEF4QoYWaN50iQ+OL6r7M+BFSqYwYPg9T1bRqMYfYxJ84szOoHlR3f84+HFKRISd3juG+DCpIhnld6aYliZb3CJ4WlkCx13nfs8ykjkYyrRp8u6dkIVlOKXLuUHzmTQPMVB+vTmN4TVtYcv86YMUY/frnJ3VpVO1Uu8Lvqjpby03hWJnmDjPoJbF700R4V6nd43TRY0Rj9Oj31zzTsKbpiojt5520pMBMKTF4iYVv52iaXrJIcqxtjiNYA6txcJmo57dnibChKkQ/Ptec7z2JI5hDl1VbWEZandS5lbnfu6YJw2cwX7YCvEc/z5/jv9vbR3dBIq5by6q/zPgySTDDmayuZWQiRVLxXCsuOFHjRxd/589rEI9+m93+xPwxWReYq/z9BaIMGntaaQrLcnu5Ieffmz2hsMORP3N6//1fs8MQVJGafMmx7RT4jxBuBB+5ZuIrVvfDGEGDmXNH1RV78GFdH4mMPIiUTZDx7p5M9IyqkUpxMEQZMCw1YD00Y17X+N6sMQ1g0XO05CkJwb2oHcHTMP4uMrgD+hJYPfg+pd3QZsO7+eSmYzO8OYiZxP5SYLh4OunW1xEdQgVBcf5ydadb5HcALMyZ12EzkInMSyRyPIOevcopzEZwjjeuvEsB+xuy/EIg3gyEzVc3MACwLTnzdyetNp7t3vfPODMgqlnoKJBY4BLTIdT842BYnqkLTBDJgTPDXCV07DZu3nEZRUNCzInzx/d9cfl1ExViN7JAisaXEyCi9eGveaLrwwNQiAw5de2bj0DB+3rgcwc7k1zRkMMn2naAmsaGJLMan53Z8uSneRHN24eo+g6MuSQk+5jMgT/Z9EXKkozzsm1Jz89fAri/OiojOP2XvPZRff/49A0GJffDXu94bSA/wPoNC/BimGhbaHoOlNi4Q+jeWOB52AIg/JHuLB0Dn654d3FDe4T4A9T1gJ/DBg3LXIaMYmTtMLgR4Bx5OPL82TCUW9yad7HGHae3tC0y7ByD2GQrdR1Fh9k2LyDT+4tskMTh6U9732KMoVAsvnTpRmhAAPCpK3e7MZ+gOk4Thc2lT8JQ1UtcpT7SBQRYW/w9KvYorBLAMswQO2LH5szMhzefqBRVVvgFQpToN15ejstyI2hg+FG8x65JJZ+Atq1/236NKbxg0i5mXtMDHEJvLU0WIw/7jydHl/c79xvNm9onNPL+pQlJSrnWw+b0xdKDW5BKGlBrHyZ1MwE+NHNoU9yr9MJHiWFf4fN3t+2yCUdnXFYGtUs8vjRQ1lqGg5zg+EQ607HX24xHJ8X3b/zA7NRRD5s8eCH73+69+K7F89ufv/kiIL0DJVdIiM/FVwlBlcZEYRzTSbeZKZJWJxSi9K/wCjNkCFDhgwZLjOYphL1DIQmVIpFNNhUMY4PANEuk8eJfMKSxq9huCKBBs9yU6LJfRoVlFCGgIsYZxD+Mkv+jTpgyLybiivCLcvfL4SB1xsiCkWgJ/hnjuh5WsRNRbgYRkRP24UbqTGQAL/Ufx4tPA9uHuUs/nwTncixyXNFpWLgAohwjdR0L3aO6Esl75ZSUAUJbqzj1q+t6Nx/ymPr2wLuN2klLlh9tyYE9RcIs5G8cqlGVEsFmj/7p6yP4Nvg0C+//PpyLWyTVVpLXqPcLpsvV0bB82xw1q/ygrVoAarfxKtPJwj4OX8WTt6uA8Pfy3k37xSujO8be2UrcHhng3FhsXo/cZHdsFvB3VdrOzrs6b+FsatR8so2XVcxG8sopWo/bzp2txq2udKGo6ZpeqabLxfDu1nbwSb71aiXXdd28/n1uRiu5nUAfImpAHT5IV+Hvq41FN1U8svRqct53dSV8gaMSEHqNp6P1+EluFl6Sfwxv9bAtpAxzMJaWbZtv5SHqrapm05B9p0xfhUbcQB4jucWNqFt8NJrJWzbjjF0Xd3V52ZoBgh77CjumKH+EYbxu+PYSyRgqIQMRaUg23aLPvs4Q4v8Jtvw4K/fhu6+HqF6SWEIl+nuvAzDe6gE99OJyfBjDMNrZE+dUvUMQ0qKMEBNkG9F5WcZsnpBXld03WLw/flVgmtUPy/Dpf02oGzLb9Bh0rfLO/v/nJWh2WjDFe2Ci9uOu3mGITntmjgudkbMUs8yJLuKvKy8uen1S3mYi56jSYvwORmqpLJRQUCHoSelamUbPhxUZmXYGOEF22tLuwqOg/YBAZsWMHxLWFVOQmfnbdhEnOHvZUdXHPcNCteqrbZNvTzyz/IZ5j+TDH0rqrZs7EsJ1TjMBHVWhv1tAU4D2POXcrrBMGU0kuFBQ+61V8ZNxBnCVzqe3q+BmRSUqZXV/XckzhBlGDgU52KoaXKFZMjQd1XYrAxLG6AuQTewt33JpZVgWPR15HpkwxMMu6aje+7VDRxKlKqkyqwzDMfXgS6dmyGxZF5lLEOqyc8zMiyjDA24Ky3bkQxFNEprK1JNu5saG/sycYa1BhAEtbZTPH0PLMEE0wTDfDXKYElrMS9DH34PG2vE1wgzy3DbtwIcdKbuFLu1SIbuzyWn6Che44CQsW8YZ1g59KQuVcy8XcovtSr4mBQ2HTBU8o1GqSFRkmrwQhjutqpvq9X3dccDTaOb7YoA39FnqOQ97FV3jbD0UUqWbCe0OOD27B7+6wD9QS1kqMegXBhD0y50d7u27SqgFxUPvBqYTwFD4Oyazq8qhCSpMmSVkhcyVDyAud8SzGKLxVDRwQw6ugME3aLS3iAskiHoGN0s7r4VhKXK0GIbdj6UIbTkmEq7Ls+KGMb9rc/LUKVq4JdGmp6s5BWfIbMivxTtIEjAgTkV9G/MUJe+EnjqWqoMDZVYr9p5D+4QnKlIFu1tMvZpQEmNAQ7TZ2YIJmSEDJ38lUihXbEDhmLMUAf5eei4mbpdfhvMt5ChIr0AtxjLeCfmIeUqRE/r/cauAg5NUc5dOWQCTbN5dQwYKZ+bIQRpvgz/FUWdq54cpRAfRjK0YQ7qigeO/2klrPEGDD33jSuN5NI0hn6YzUetVa+Rd+U1SsQw7rXhKP68DDkTlTIyNN3oHDRvwBCc6DHD/EqrdQqiBecE7boaZ9geHfiR0049laFGeB0rHvIWbq/6c6+PbUiGOjDE5IY0zyYMks+saQAlF5p1Cu9RP2JxswWhAJwkKauhX7oNH0Bn4uYaC2q8wBDaggCF1FFbeg74m9RPuiSjpyv7v6gCfDaBLItyItrEmOJ5f26LT9Bc6eBzKKUa3lYGLojieNC70wTDDaKxVt+3ayR4I4vP0G6BO7cO8wuUiGsENjExSkc7jm3XOYTC4Asf7Eo3oUi0zx09TWcIlJCTXlhv1Wqt9ZIO0Y3r+P5/nKFK8tJe9ZFSgiHokkPFhYswOrcmGOKIcOz2r/VqrbqyK22jd4rn/bcYkqtSTYIlsAt9CN+kjxV8S5whZa2ulKEdPGEQMgSrQmpl3NZ3r5CJUXqaVzwdo3u7VOravlU/RA/oT2SolOIMxfY+KBBn7Flh9O/sb6shQ1QiyBC6DraiCAHwCqP4gN5aOWCIjsMvmEPQvTJ0nRrAUAkZnrwGNwHcBde3fXAbXMVel/nNWknq4DMMlTnzNBFDcCG6CYZibR/6MHasHNNz90e+f4IM4XxHjlLOWnmZ3ylXBGaFgSEcyyNDCFwKcJ3jFctgTFhChgdeQYco3wkZusW8XmFCjlL0ZxIM4dvPzxC+KCFDYogNvexFMvRKxY0gEIqPUg1Iu9KrsVfxocN4FgPiodEO9A7G+yaO02oJ7E04D8mVhh2TodJ+g4/dRHmaKFULMjw3w/p+t1wuv44zZGjYa+ttO8iIttfBQFm+NgGG+2W8ABhyEFvrj1LjsF/+N4gYrnndgEP72EH8eGW/VGoftvdXQU1W/yhDLPS65bcvKvXN8q7feqn8poYWFe9g7Y9y2ECA/Xap3djZPA/DysHGNiAlbc5qreVXr5ZbtXgBQNUq8vyNwGBbB9vyMz5mIIxkW+ExPJcf4NZBzI+r1Frvll8t19cq4R4BnZHnV6Isvvx8cHAehkT6I+kVicR/49NZfC8WHVS/DWIJ+X80FvxjuEHPtmUF1Ze09ShMjWoeeJpKzvOON0uFwUbTnx5XLYtzyzrTCU3D8zH4k9czxsbXa8m2wmMCf9VDYCUqVu2hwBsLXKo2XvsNbo4EibWBn8F7O8e6OCAgLCv9bY0alrmYdXb1uYrnM+qLx0ClElyPTzXH24J+yWMgQlULEB4TPnmKNbdkfywYCpHM5GchzsGQCsrwmymGfuE+Q9432EdAvYhx7xBCRPdXgLnAfZwZ415SlUqnWeDLaLmQ24YR1SLhVCaCN3xacGG8bSsmO7x9lEhq51x5yzT5ohHKeHSfNObfa6rCoGPJtWkWj56QFMF7gSHyH/fCIn7eTEC7ML79iCxWGaRInfjZDTA2cfnBV1mxeep/Bcj4nE8wRG1G94qp4U4wgnRihIznZThDhRorovLwMNyzqGYaZyLIdLmosY3t0WgDIhj13CvHVpyixO72uHVBVuXOXY3CTQxPkNi8uvp+3L01E3eZ1ZichaiUcKezLIvIu/IiM9L2q8pmUVe6stdXHL0Yh1f0Qm+GgcN/CBa00b1aH/drPhikIPPTrmvX8QcP/G4GpbcywQBuZVyG8+tldvsKDEUGcZHvRpaqJP7W1Upb+pbL0DQlMrvv5otyvuPRJRf8Nbcsz79i+z7NGDr4PEKDmdzq2m6QqXLt8vpInGMuslrJ8T0z05F9ChjKL+gDQxXzUEno/d84AbUQhQJWnGE5yLtga/IECKNekeDNEksYK5gBw7wfV4RAv1Wg6/RqZ5xtRKfOa5/OTxC/0q8fmvrOKJweH2PoQCiAc2tGhtB2GRwjNgtDnKLv+s7Y7ZeidQqv5idYafitgf/snkb+ygcZQmjXf486akaGML+cUoWR2RiSg7Yj7zrMHNMfxZ4zp7bBgKUOfXAx4QAocTKVoemUGn3ADgRs+LGI9nxGhnKkvpkiw6K32w9Q6u6/he9ezku5l9f/b2mzXcJ86c5oznkIngYpwh02/XumFN5Pn4febsVPjZ36GfnyNvkkhnrBzzCfZego/UqsS8hEZqacgtS/RnW9YZbq8z6vAdptYwekY7p1OVTN9cAQpsmwXZG+jUp+lfIu1Aj5FIaOXl5LY6g4ECGH/hImwwmRQaZ3VT7tAF8/ct58aC3RBwE+/LLrOa5b3j5FRs5+cDtTGBbb/jGDvbV9WmJmTeML0dtlKQxNpzuWIcUfHaKsIOdk/tQ3ohAbV9i8r7Bj1Cqg7NwiqRUw5rbrUxma5W3mM3znV9eqmGecjSGWQ/36Cp1gWPQiGRqcMxiPMPGw7pFvO6etDRnCqNacnjdVgy7WBel6utQf0xgqh4Ey3N6Vo7QPMf7MDF3XH9nv2ARD13G6jQC75dfbYO5XTRhYaAdN227s/gxOAPZiPoZkXRIpbxD11MbcWrAmIoWhvrtSR6yWXT/7h37MjAzN1aDkezhSJzSNCyIOoINNEVTd2Ff84pqu4BwqleqEzTkPwcFyfM3PyFoJ1JrpvJrG0FPydh4TN6ZUdflTYsw8Su3TUdvXNi7I0EkwxGxzWA11lMNt1aJkpeGvZHIcv0BaKFbmfTSlbptYi3wHw4B1FdzeIUTWOj9o8U2vWL6GEdCsDH8my7bumJ5p/3Jqm0pC05iOG1VDG752WfkP+DG6rCPKO2MWKtp8Lz3ddGEeKDsb4EaT07wLurv0lkHE9DGGzv6ajIFm9UtXBdkEvxekZRd1T0/KUB8LUVpZgkNotH5ogoeOYpUU3VVC53kGddR29aJp/obb6qjrwA3F/DlNZxg5WLaLHuzsnre9Cq5YGTsKdLDjcXtoKr9tjlH0IyXgsl2/2j3M5z3pQHnOjkHn0afoHummsr58ZXl5+YoN89B0GgfaFIZ2t+Rv5Fdg5sv02Zih+kGGuCyPVctYDEFBJuah5xyO7SELImMmX5YNEmit6iVZ6Fe6NfVTf/kDi159U05l00/8+vLJv5syD+23tdpKHivS7ksSrMsOGL6X+SLLonKZeCpDwslqwSvC/dSV5DzUS9vCv9wyqEGlp7WCJQM/tzAqelhhh7v4qQ+DW4JVS4rv24drHvxZTVJ1qVtGe7grzy/VAu0dypBZmDMSDB9im8IQZjdqZDmvEqNUB2dJ+IDrhcY4Ge3vvMdeMNgFLpTuM/zU5/mpRtZNfZKh3l9L99rKFcrUlq85iiTBsBY1q05jCIpio4xVjDMMYTvueYOgVAKWufEmbPQlLmxTGmufzFDwStkJdFWcoWeupjJ02gfgNRLpoet2XY0xNCNFgUsTpjDEGkffOStDnJZXx5df1avgKb0C/eJ5pd2l5VZ92XXBzOjQE8Y/dZSGq0ZMCMsC+Da2jy89npyHoMixkzZ4HqbZ5fJXjYLFIVEKZ30qw0Ae7sQojV+uYAS8VjZRt0AAjNpBRlKmPUcawwgWCOR/WRsDC2BgEjHOTmWIsRN6mF7RXiEcjtSi0MHv+YcZqqJUTGE4Bsb4qlgtKPqZ/XqjMpXIdIz68urDtWjXOjaG5Wx1igxVi7yF7wefpr2N2fhPZEiJ7719MIshSL2dV5xEw+3f54nxT10ZTShk/OuM5P2uh35x+SAmQxEybG8TuYgLRW8qzioWdmvdJMPJUeqXTMNRCm3h1NC9KQwxm8gMsbHUtqMKtFkqbs/jefM/Ct1CobBzqkaRSaVd2sV9V1Sy1IaN/h8cNdirHdguvPYHCmvt9/Hjv9dUi1X97RCNPj54UXkNm6X9UwwI+H9w/85SlOO+2uiWdkt/yKzEabtfil/fxTwNwSrAxkqxXPCfV2msV8lcoMGv+ZHY+w7CG8UC/4Ghu6v6zyyFryaxmP8EEBeUWWd+8YFhypv7bxmwOJ4YvEEwXjrQZB0jqCef+W2awKeRHlLl92qr1Xo/4vP+fqlmqaoBIFo0AiyLC9wHxyj+bzFNBRnKbbDlUtZYOsTPuKgX30xuxACN4k2Rx7EICBTltoj9MoSFRUXiZ4ehESt+vQhfXS9ULKnJ7xNk3vcyYN1H1u9ixVGVCrmP4cJQSuWrSYU8RZYtg5NUQ1Y9oTcG4zQOLL0JFpyuwm2yZIGTqpTF5YA30JcV+HmJ69XAgzfgEuEvjbDoX+K1BRkyZMiQIUOGDBkyZMiQIUOGDBkyZMiQIUOGDBkyZMiQIUOGvwb+H75RmsXzMC1nAAAAAElFTkSuQmCC",
+            "depTime": "08:00:00",
+            "arrTime": "11:00:00",
+            "flightId": "13358993",
+            "depPort": "AYT",
+            "arrPort": "DUS",
+            "flightDate": "2023-07-26",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 207.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 3.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 210.00,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 207.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 3.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 210.00,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 207.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 3.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 210.00,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1186713,
+            "flightNo": "FH 1193",
+            "airlineCode": "FH",
+            "airline": "https://scontent-ist1-1.xx.fbcdn.net/v/t39.30808-6/299134301_595946692232473_1897555730709962080_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=MXVhW6hf-WkAX8TfmwZ&_nc_ht=scontent-ist1-1.xx&oh=00_AfAWz88zO_7BMrubWWq1VoTsAMB0DOhA7JOQJhthbLl1IA&oe=64D0DC87",
+            "depTime": "08:00:00",
+            "arrTime": "10:50:00",
+            "flightId": "11379302",
+            "depPort": "AYT",
+            "arrPort": "DUS",
+            "flightDate": "2023-07-26",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 215.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 3.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 218.00,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 215.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 3.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 218.00,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 215.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 3.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 218.00,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1186741,
+            "flightNo": "XQ 188",
+            "airlineCode": "XQ",
+            "airline": "data:image/png;base64,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",
+            "depTime": "09:55:00",
+            "arrTime": "12:55:00",
+            "flightId": "11605803",
+            "depPort": "AYT",
+            "arrPort": "DUS",
+            "flightDate": "2023-07-26",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 195.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 3.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 198.00,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 195.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 3.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 198.00,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 195.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 3.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 198.00,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1286852,
+            "flightNo": "DE 203",
+            "airlineCode": "DE",
+            "airline": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDvPive6_hjvaCuo_6NDuWV0XoIGtRPd-Qg&usqp=CAU",
+            "depTime": "10:20:00",
+            "arrTime": "13:15:00",
+            "flightId": "12558977",
+            "depPort": "AYT",
+            "arrPort": "DUS",
+            "flightDate": "2023-07-26",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 177.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 3.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 180.00,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 177.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 3.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 180.00,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 177.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 3.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 180.00,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1186695,
+            "flightNo": "TI 331",
+            "airlineCode": "TI",
+            "airline": "https://logowik.com/content/uploads/images/tailwind-airlines5058.logowik.com.webp",
+            "depTime": "11:00:00",
+            "arrTime": "13:35:00",
+            "flightId": "11132482",
+            "depPort": "AYT",
+            "arrPort": "DUS",
+            "flightDate": "2023-07-26",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 225.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 3.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 228.00,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 225.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 3.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 228.00,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 225.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 3.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 228.00,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1186740,
+            "flightNo": "XQ 186",
+            "airlineCode": "XQ",
+            "airline": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABDlBMVEX///8aQoruXyoALYEANYQAOIaEk7gQPYgAMYMXQIkAN4UAL4IAK4H19/oANIQAMoPu8fYAJ39VbaILO4dKZZ6Snb3k6fGqtM2UocHf5O4AQI2vt85leqnFzN2hq8a/x9rtVxrIWEkrT5LT2ebuWiD2XyBzha/tUgj97+o6WJaHlrrV2+ftUABqWYIiSI5DX5pdc6UAIH362M70n4dwgasAGnv84tvzlXr3va7xflrvZTL5yr3xhmb1rZowU5TvbD3yj3P3uKf+9PHwdEr73dXsQgD1qJHZa1DIYlS8WVO6YVyzZGWoZW2VW26ATW57WXqHUGrbYUKcVWVVS4BJUoigVWBzWX1zTHNASYYABXc6n3RtAAAPoElEQVR4nO1daXvauBaOYxtb3o0Jy2UdyHUKSYHsW7N0uWk7vV1mpjN35v//kaujBQRhh9ROH70fWkxsodc6m2XpnK0tCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQmJFMJl/+cDd+Z5zxOFfjcKy/Tjoa8rccL92TjcMEJIz5DPGV1BKMwn3KNNI9CQogwZKopaSrhHG0E1s88/zmBYqtQT6NsmUG6qmsEPZjDsWqZefI6mJxNiTlqRHU1nWPPxkZlNpI/rYUfDPUd2QI+mMnQtfKBEJwn1ci14pOsVejCVYQwHyAkS6uRKcFlvyyZQDFvkYBrDUggncWHOPwt1rOuHbHjaBu680SOfpzHMwjmoSy9oHVrVH97fpYENjJGjH1sOjI9JApkpDOs2nGIzd9E2UJhJoM9Loe8LPa5E0H8LPk5hiBAMM7sjRKzNfgK9XgY9UeryKhDQOlvTGBbB3ioOiwsMQjftfoNKJrccHeIx1PwUhoEJnPRYOPkZRHMnIJnIZ/Y0AgpRfwpDcq7iUwOatwnd1OvhVuAgwQ1Sj+FUJzLcJ+Pt1eipfZFuqsF0i7pB5jHaW+4jhnmms016YpXQ9QsJ9XopdNHQDXKPUZjAsGyz8SW4havQbUJ9Xg7Ux1E3yD2GkdfHGJolRTSdBV+km0ZkOkMFItKn6PQgTwYxirtjDBGlHlLT6RJ9jYa+MDip/LjOL4Id1dIGKrSvEkffoUfUCSBFGWWokNtgMdNJSduDmY2io5upsqpE2/w2sy7seYH11yWOXHnEkCCiI18auSdb9S5orZOiR3+XuD3FcPqMlC/KHPUYExmabNxzxKpG9GC/Z9N74qXHc+yfsmGK7B3yRc0bMZPGFIbcU4i2yY0ddjo63X/8U0mh2vRZr7SIyFZTtP3UY0xgqLJbQP1LGz7WVPZH5DXTZVgLJu+Z3cO3vq6KQkjN5iOGPPCpUU+Btbja9Zg06GYtISZT4WZCJl2GEwf0yVbRqSYFzkSGDtXawCdx3slWKeswfkYYp3Fao5RVhwNQ8gRKdFZqnKFGdZZZ3qiUGSignUuRBo6grjAhQ147h4Rhoo9+owwRon/aJzM1qNflYq6hFLkJQD8WjHrRZyqHKFUelFGPMcLQZmFdjo4cd5qRWRw253b6yXuMmq3rglEITrg6UtjMIJJnDJEhNZ3cU3AYYUVQwDKy/M5W0oCb73UFwz5w2HRo+DQaGFeNMuyAjvKpCySebA7CIrikDVMAWtKDWCfih9S+8LIM3/pht302wBXTtxHtf+lW9W3mKejTJOVnReVhI0GFGh4v6SfGis5dREa42Tt2NOi4R8XOzZSH8ufW2auYYDjehioKZFFlLUS5H0FjBvYVjfXRMoS7na+og1Bt1tteHguMSQENvYlhVVrTr/5BKPLxQr6oRVWiRYBwunNrhVyWxRCtlFMHcW5x6rU/EMEJd9WGKlrCQmRRMd2ZemmGRQKRYI3dWJ3YXKJotbk6RaZAxyVRiqFM72begBNCUYVrFvf8I4Y1cZSRxg0iEgxivq9azVnmPlAsNSvMAVebHpNbTWwnFeg4XB1Hosr6yew1F/kTIUTL93noHYWdpP3gY2AHNngyOFlFf9wOD4eQkxoFHEXrlptP3VveBuI4gdvk2zQp4CjKiPs3r7vcA0Jr4FwilHQUIyIYg5uPeYyC7Ozib5GGDkdBlf18aQxPyGAOOofOGGzhwWLUC8xCUQjyFMO0x3CY3Bq4tvBcMAnqdF8vohDObodPySUAfWbHcCy2mC5W7dnNIO+JeUwFn2CaPoYLSum8O5XYapvSoT4TWnvBhnKWMROHidmaYmY2Fp0xa2VnI/mZDAkJCQmJ1fFwd/1kbb85O7q4OT4+v391//DmyX5lHvZ293aPzzbd6puj18eXd3sHe41GYxewd7npn1gYV9vb242D7ZuNkcTk7neB2u62iMam2l8a9wcN0oGDq4ejtRs7uzi/29sb48awgb6u2qubuwPSp8Ze4/7ixarNvDm6edU4mEwOYzc5KQW8uLjfxnd+d3u3sXd1f7G0wJ5dH08dOi6kx0/R8WV7ednA6rPbwP9ePlwvOJh46C4xucYMcpThxdN2f1G8uL65v8NmYu/g4KDx9vj10Uye7y7Or+YM3QB7GzfXi+PV1auH65Hff3F0fXP86u7gP4Cry/Obi+t3Zy8Yzs7evQM3d/92UXKUYVL0MC53sfbt7W2/eri4Phv1yy/O3l1fX9zcPByfnx8/3NzcvMYHx+dvdxvjvmAeEjU0r5kO4W5joldvL++Pb15fX18fnZ2RIcNjdnR98frh/NXl3TZx4Etxo2i8TpDh2cHY7d6FIdobAY1MVmDGcZCgGtKo5smRJMGth7mmfiGQ8HP33+MgY797nijDcTFdjhWhsb199fb9h4+/fvrv529fvnz9+pLgr69fvnz7/dPH91cH6weEa+FuaV6E1t1v7z98+v3z15d/fL9V/jUJiP2v/50swa2LxcSUENu+unv/8dPnLy+/K5wVQmjOmwEr8bUKMxhyObz67ZePf37+64/vXc5rzhy3CDvxffsPewNXIJoLPF6/fcAD9r+X3/81HK8lmDFEKdiU8PHDLwwfPvz66c/fv337+vLvv5uD8VqBloAwBa+DC85jK6GsyWuAdOxG7G6IzSQ4KRhCvmr9SRClZMts1pjf19XgJG5IKUrz3pSuihkr4n4wiv6TEEzw/f0j9J5ETp0U7UkI5qw1WAlm4vGaiPrmVTFKhSscorNpVTRSpIQU2XlLRpYDSj7ifoR2NL/fi0NNRTAzCre7OYOKwnTtPWRwmxujmKYtwCLc5mYEFakpJYgp9rT5/V+AYCpFlKFizmcwB1E33flbinPWis6F30vfIv1RVLV1lBGFz2CVXpBdPUjVozSr4BAFb7VhRE4l7RLKwXdHLge/+zwGkKLVVpe0OJaWuhQDc1C/VRcfR6TpKdznNBfVXKgvMpDIMNGzzF+KUcogM5pD0vDsfmqDtEVQjU3bmiKuyND9MFdI5za1ZdAqZg3V0yNjkDdBQZicZ/u9TP2ZSudjlOrFk3bkmWRPk+lrzX6n3Ppp2AkI8oCfMiO7hISEhISEhISEhISExLOH6/7MD6xuuR+FjuO0M8tMR7tjqRVSPNVb0D2WelM3l8j845oj6TH8FCzznYJYXAZkdBe+zh2dI41SlXpcRI2sGzU039MMyBu/8IWUIeLQ0vpKkKaltLOFer3Wd/QlXpwQhqjJ0U2rHtZg1YHPEt8FmdPFl/AQhmYKl/yMoW+MLCSvLu4zngtDUq5hmUW6g1uwLMPZ9278r0GpJH7lBsGqLz6A4bh56ezs7LAXfZ04jiF5YLVYqxVLW/sVZCg5KtMTGBbxhTtMH8vwGZ9ZqOEr3SDuGijHXFELGoOU7pVcG37GLfZws73hu7d83HVs1Wxm2IqUQs9yHLMbr/T2GFKVIW/0/pxi93ZIv+pZUQSVNnccywpb5RCzQoZTmcKwDimlDslX+dDSrVPcw55vWU7B1+FC85a0WghxY3W3bUfGIT6smmDFETbnrLECeyOJdGIW8l2TJApH0UqlvmJYbmA0RxZBQspYlngL0nBDIacdHTyezzygWp7MkKyTprW5ILEuKdxBEnlHLJN3RJaTFrB10+o5UlAJ3xZYmxPBuznkkDErwxcoivA3Ju6Fi0iZHjjUVslESIv3IDUjDOMUhrifnkOye5Lk1pMYkvoIUA6iCl6WFO6gqco91CaJ+ojXBIYIEzQss03rXalxLWdhGlBmIYAFV3ozk8napDgmZGlGdiXTtzx7JTEltxICtmEW/2kMFb2MFYqUANrn/rCXI+gxYwVDB+UgoCYQrZlAGKr4Yx7SmSPTpQxxqGD2a+U6SWxuwuvhikELRUDVDFoK0u20abo4pBAZK6+W0S0weFCqco7TGNJaHVDUAsSFxTQ015rFjBUJIMwy1ARiuwygBRpHuDpzvZShQdbou/izQfbM7NvU5oHemGz9vgtaOowIV3z8CdpcvXSnNosh+52OTjdEjsSlA3NMcpN3QevY+l9owaTSVdTpPjwipYwE5EL3qHHG4ooUylAb5t6t+xvY+VWzeV5tNZ7BkP1s0aIelDI0IgJv4HCo2RvWHBUYtkw6ssCQDwvcL5M6BZDskH6jDNeFwdCuv63GLRosdbFaW46hkT2pEAyiUr4DzHQfMXRVWkiH2FKeph6sb+UEI27Sn6XVXNQs50hupNZcN6OyW9PpKnwoh7cEQ/+xdcuNJsoXGYKp0YIRhu2hICjsZ+l+AMPp0asK1Nqb3bWT1sZksSH88jIMHy+SoTtrkEiYMSQVFvxRhqQQm5AdEo+826ZrkFlkwR9gMcd1ty4QIwGWYD2GZSLwFtecBRga/QoHNSkZllPbovUECh6jHK1LEfwARCRrMQzYInBeVV2U0uixlEIUZD5aEF2KadEEttjd3dGJLVy7gkLF2ADDLFt1yi28wJDkeh2zNMQ3TNCw4AREYVgEmm4NdNZcHE7t2noMSbkVUmmHlZoVGFYFb8EZwmdj4tCA9xQqJbZIYe8Vwra+cFdATcCXw6226ffQ1WUYki/VFrSEjHGGMF4QGogM8+BczEmugIRrwsQY7NK1V9ir6Dsx50jqbMB+R3hmpD2I9XkMx24qXKDHtJIjLT0KDOkjdh5ibK88ypD8HfGQuoUD85hzt0mNzDqPJXqIdmVJ4Mg+cpqZWr2QIQ6JbAeE4q9Ir+Mom+yrmBnT+CHHPzhKg6qqCB4pSJQdcQaKnXG36MDa7hhDUt4DOZVqab/eP8Q6klO7hbzrlsityeBnKXsHP+67RdBLfWmCWyVQGxRpHt1dQOvfkrAE+T5+Qp0npQLgQQosI5nWIkWDiAjTkoC61SX55kkdoRGGWzGtzu6rtmeAeeoipKmGYcJ1YQn/HH4mMJqatWLwVj0VVoUiHVGJbbMv9Ww8Ly4dYQgVrQxqHGCGi2gRkUKDZcsQnoCHk49Zc9AQTEifDpt1ikxRaPYGfaUKrfWeqrE5Ak/ldbnyyMd9Msze1onjeadkFkPXQ8oQPkLBH1f1RnDYcm0f/qNNHMJXRcrQqxsamcVo01kM3IIjTK/u0C6gyDTwqJ/YXgS/HnmkqG5NM0GUkKE7q1b2KtX6TV032idiHaNarqv08A9Uy+VyATdch8kp2vcqTDHV4ZzCCGrBPj65zI1rHQ7K3N+4O83Q6/GZqA5uTDRRQTGr6FGblfkIynGu2e1VyoxQPc51jWauk6I93yMgDNO9i2tNSIbPH5Lh84dk+PzRDlX1n5+aYT7ZMkASEhISEhISEhISEhISEhISEhISEhISEhISEhLj+D8Q6W5frjB2LgAAAABJRU5ErkJggg==",
+            "depTime": "11:10:00",
+            "arrTime": "14:10:00",
+            "flightId": "11605796",
+            "depPort": "AYT",
+            "arrPort": "DUS",
+            "flightDate": "2023-07-26",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 235.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 3.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 238.00,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 235.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 3.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 238.00,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 235.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 3.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 238.00,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1186673,
+            "flightNo": "PC 5011",
+            "airlineCode": "PC",
+            "airline": "https://ttyd.org.tr/wp-content/uploads/2022/01/pegasus-airlines-eps-vector-logo.png",
+            "depTime": "13:40:00",
+            "arrTime": "16:35:00",
+            "flightId": "10969035",
+            "depPort": "AYT",
+            "arrPort": "DUS",
+            "flightDate": "2023-07-26",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 214.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 214.00,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 214.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 214.00,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 214.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 214.00,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1186738,
+            "flightNo": "XQ 182",
+            "airlineCode": "XQ",
+            "airline": "data:image/png;base64,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",
+            "depTime": "15:00:00",
+            "arrTime": "18:00:00",
+            "flightId": "11605782",
+            "depPort": "AYT",
+            "arrPort": "DUS",
+            "flightDate": "2023-07-26",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 255.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 3.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 258.00,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 255.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 3.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 258.00,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 255.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 3.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 258.00,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "legId": 1186739,
+            "flightNo": "XQ 184",
+            "airlineCode": "XQ",
+            "airline": "data:image/png;base64,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",
+            "depTime": "16:50:00",
+            "arrTime": "19:50:00",
+            "flightId": "11605789",
+            "depPort": "AYT",
+            "arrPort": "DUS",
+            "flightDate": "2023-07-26",
+            "via": "",
+            "priceDetail": {
+                "basePrice": {
+                    "amount": 195.00,
+                    "currency": "EUR"
+                },
+                "totalTax": {
+                    "amount": 3.00,
+                    "currency": "EUR"
+                },
+                "surcharge": {
+                    "amount": 0.00,
+                    "currency": "EUR"
+                },
+                "salesPrice": {
+                    "amount": 198.00,
+                    "currency": "EUR"
+                }
+            },
+            "passengerPrices": [
+                {
+                    "type": "ADULT",
+                    "priceDetail": {
+                        "basePrice": {
+                            "amount": 195.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 3.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 198.00,
+                            "currency": "EUR"
+                        }
+                    },
+                    "totalPriceDetail": {
+                        "basePrice": {
+                            "amount": 195.00,
+                            "currency": "EUR"
+                        },
+                        "totalTax": {
+                            "amount": 3.00,
+                            "currency": "EUR"
+                        },
+                        "surcharge": {
+                            "amount": 0.00,
+                            "currency": "EUR"
+                        },
+                        "salesPrice": {
+                            "amount": 198.00,
+                            "currency": "EUR"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
